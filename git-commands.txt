@@ -1,0 +1,7 @@
+git init
+git switch -c master
+echo node_modules/ > .gitignore
+git add .gitignore
+git commit -m "initial commit"
+git add .
+git commit -m "save initial project state"
